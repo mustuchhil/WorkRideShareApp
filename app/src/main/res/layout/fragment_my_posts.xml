@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.MyPostsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMyPostList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAddPost"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="ADD POST"
+            android:backgroundTint="@color/buttons_color"
+            android:textColor="@color/button_text"
+            android:layout_marginTop="550dp"
+            android:layout_marginStart="30dp"
+            />
+
+        <Button
+            android:id="@+id/btnMyLogout"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:backgroundTint="@color/buttons_color"
+            android:textColor="@color/button_text"
+            android:layout_marginTop="550dp"
+            android:layout_marginStart="30dp"
+            />
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

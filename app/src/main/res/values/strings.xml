@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Work Ride Share</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="enter_your_name">enter your name</string>
+    <string name="enter_new_password">enter new password</string>
+    <string name="enter_contact_number">enter contact number</string>
+    <string name="enter_your_email_address">enter your email address</string>
+    <string name="enter_your_password">enter your password</string>
+    <string name="user_name">User Name</string>
+    <string name="user_email">User Email</string>
+    <string name="user_contact_no">User Contact No</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="logout">Logout</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="update_account">Update Account</string>
+    <string name="enter_your_source">enter your source</string>
+    <string name="enter_your_destination">enter your destination</string>
+    <string name="enter_no_of_seats">enter no of seats</string>
+    <string name="enter_your_city">enter your city</string>
+    <string name="enter_description">enter description</string>
+    <string name="post">POST</string>
+</resources>
